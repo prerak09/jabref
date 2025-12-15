@@ -10,6 +10,8 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 ## [Unreleased]
 
 ### Added
+- Added the `eprinttype` field to the General entry editor tab for new and migrated preferences.  
+  Fixes #14555
 
 - Improved merge dialog decisions for fields containing person names (e.g., `author`, `editor`) by using a new plausibility comparator. JabRef now prefers the side with more detailed/complete author information. [#14454](https://github.com/JabRef/jabref/issues/14454)
 - We added 15 non-standard BibLaTeX entry types (Audio, Image, Legal, ...) to the group "Non-standard types" group in the New Entry dialog and in the context menu. [#12963](https://github.com/JabRef/jabref/issues/12963)
